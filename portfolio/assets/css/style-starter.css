@@ -23,8 +23,8 @@ Author URL: http://w3layouts.com
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #f79784;
-  --secondary: #75a9d6;
+  --primary: #00ff00;
+  --secondary: #00ff00;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -3141,7 +3141,7 @@ input[type="button"].btn-block {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
-  background-color: transparent;
+  background-color: #00ff00;
   border: 1px solid transparent;
   border-radius: 0.25rem; }
   .navbar-toggler:hover, .navbar-toggler:focus {
@@ -3857,10 +3857,10 @@ input[type="button"].btn-block {
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
-  color: #fff;
+  color: #00ff00;
   text-align: center;
   white-space: nowrap;
-  background-color: #f79784;
+  background-color: #00ff00;
   transition: width 0.6s ease; }
   @media (prefers-reduced-motion: reduce) {
     .progress-bar {
@@ -7775,7 +7775,8 @@ a.text-dark:hover, a.text-dark:focus {
   content: ""; }
 
 .fa-twitter-square:before {
-  content: ""; }
+  content: "";
+  }
 
 .fa-facebook-square:before {
   content: ""; }
@@ -7845,7 +7846,8 @@ a.text-dark:hover, a.text-dark:focus {
   content: ""; }
 
 .fa-twitter:before {
-  content: ""; }
+  content: ""; 
+color: #1DA1F2; }
 
 .fa-facebook-f:before,
 .fa-facebook:before {
@@ -9909,16 +9911,24 @@ header.active {
   background: var(--bg-lightgrey); }
 
 button.navbar-toggler .icon-close {
-  display: block; }
+  display: block; 
+background-color: #00ff00;
+}
 
 button.navbar-toggler .icon-expand {
-  display: none; }
+  display: none; 
+  background-color: #00ff00;
+}
 
 button.navbar-toggler.collapsed .icon-close {
-  display: none; }
+  display: none; 
+background-color: #00ff00;
+   }
 
 button.navbar-toggler.collapsed .icon-expand {
-  display: block; }
+  display: block; 
+background-color: #00ff00;
+}
 
 .navbar {
   padding: 0; }
@@ -10139,7 +10149,7 @@ nav.fill ul li.fill-none a:after {
     color: #fff;
     font-size: 20px;
     line-height: 36px;
-    background-color: var(--primary-color);
+    background-color: #00ff00;
     border-radius: 5px;
     padding: 0 10px; }
   .navbar .navbar-brand img {
@@ -11147,3 +11157,14 @@ button.owl-next {
     bottom: 38%; } }
 
 /*# sourceMappingURL=style-starter.css.map */
+.first-link{
+  display: block;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-decoration: none
+}
+
+.first-link:hover{
+  color: #00ff00;
+  text-decoration: none
+}
