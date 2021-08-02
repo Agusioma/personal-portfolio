@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" href="assets/images/avatar.png" type="image/gif" sizes="16x16">
+    <title>Auto typing | Eng Ed</title>
+
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+    <style type="text/css">
+      .text-js {
+        opacity: 0; 
+      }
+      
+    </style>
+  </head>
+  <body onload="fire()">
+<section style="margin-top: 10vh; padding-left: 15vw" class="pb-5">
+    <div class="container pb-md-3">
+        <div class="text-center">
+            <div class="row">
+              <div class="col-md-5" style="text-align: left">
+                <h3 class="mb-4 title" style="color: #00ff00">Hi there,&nbsp;</h3>
+                <div class="type-js"><div class="text-js" style="height: auto; color: white; font-family: courier, monospace">
+                  I am Terrence Aluda.
+                </div>
+                </div>
+                <br>
+                <div class="type-js-ii"><div class="text-js" style=" color: white; height: auto;  font-family: courier, monospace">
+                  A Computer Technology student at the Jomo Kenyatta University of Agriculture and Technology(JKUAT), Kenya.
+                </div>
+                </div><br>                
+                <div class="type-js-iii"><div class="text-js" style=" color: white; height: auto; font-family: courier, monospace">Skilled in Backend Web Development.
+                </div>
+                </div><br>
+                <div class="type-js-iv"><div class="text-js" style=" color: white; height: auto; font-family: courier, monospace">Currently learning about Data Science & Machine Learning.
+                </div>
+                </div><br>                
+                <div class="type-js-v"><div class="text-js" style=" color: white; height: auto; font-family: courier, monospace">I generally have a passion for Artificial Intelligence.
+                </div>
+                </div>                
+              </div>
+              <div class="col-md-7">
+              <div class="row">
+              <div class="col-lg-6 mx-lg-auto col-md-12">
+                <img src="assets/images/avatar.jpg" alt="" class="img-fluid mt-lg-5 mt-3">
+              </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+
+<!-- /move top -->
+
+<!-- jQuery and Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- //script for featured posts blog slider -->
+
+<!-- script for banner typing text -->
+<script>
+  document.documentElement.setAttribute('data-theme', 'dark');
+function autoType(elementClass, typingSpeed, timeout) {
+    var thhis = $(elementClass);
+    thhis.css({
+      "position": "relative",
+      "display": "inline-block"
+    });
+    thhis = thhis.find(".text-js");
+    var text = thhis.text().trim().split('');
+    var amntOfChars = text.length;
+    var newString = "";
+    setTimeout(function () {
+      thhis.css("opacity", 1);
+      //thhis.prev().removeAttr("style");
+      thhis.text("");
+      for (var i = 0; i < amntOfChars; i++) {
+        (function (i, char) {
+          setTimeout(function () {
+            newString += char;
+            thhis.text(newString);
+          }, i * typingSpeed);
+        })(i, text[i]);
+      }
+    }, timeout);
+  }
+
+
+  //$(document).ready(function () {
+
+    // Now to start autoTyping just call the autoType function with the 
+    // class of outer div
+    // The second paramter is the speed between each letter is typed.  
+    function fire(){
+    autoType(".type-js", 85, 1000);
+    autoType(".type-js-ii", 85, 3500);  
+    autoType(".type-js-iii", 85, 13500);  
+    autoType(".type-js-iv", 85, 17500);   
+    autoType(".type-js-v", 85, 23500);    
+    }      
+  //});
+</script>
+
+</html>
