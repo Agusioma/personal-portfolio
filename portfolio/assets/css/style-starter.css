@@ -9610,7 +9610,8 @@ button,
   clear: both; }
 
 .img-responsive {
-  max-width: 100%;
+  max-width: 100%
+  ;
   display: block; }
 
 .d-grid {
