@@ -7258,7 +7258,9 @@ a.text-dark:hover, a.text-dark:focus {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
-
+.fa:hover{
+  color: #00ff00;
+}
 /* makes the font 33% larger relative to the icon container */
 .fa-lg {
   font-size: 1.33333em;
