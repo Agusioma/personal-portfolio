@@ -7848,7 +7848,7 @@ a.text-dark:hover, a.text-dark:focus {
   content: ""; }
 
 .fa-twitter:before {
-  content: ""; 
+  content: "";
 color: #1DA1F2; }
 
 .fa-facebook-f:before,
@@ -9914,22 +9914,22 @@ header.active {
   background: var(--bg-lightgrey); }
 
 button.navbar-toggler .icon-close {
-  display: block; 
+  display: block;
 background-color: #00ff00;
 }
 
 button.navbar-toggler .icon-expand {
-  display: none; 
+  display: none;
   background-color: #00ff00;
 }
 
 button.navbar-toggler.collapsed .icon-close {
-  display: none; 
+  display: none;
 background-color: #00ff00;
    }
 
 button.navbar-toggler.collapsed .icon-expand {
-  display: block; 
+  display: block;
 background-color: #00ff00;
 }
 
@@ -11149,7 +11149,7 @@ button.owl-next {
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: var(--primary-color); }
+  background: #00ff00; }
 
 @media all and (max-width: 640px) {
   .owl-dots {
