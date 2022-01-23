@@ -128,9 +128,9 @@
             </div>
             <ul class="follow-social">
                 <li><p>Follow me </p></li>
-                <li><a href="https://www.linkedin.com/in/terrence-aluda-889192223/"><span class="fa fa-linkedin"></span></a></li>
-                <li><a href="https://www.facebook.com/terrence.aluda/"><span class="fa fa-facebook-official"></span></a></li>
-                <li><a href="https://twitter.com/terrence_AA"><span class="fa fa-twitter"></span></a></li>
+                <li><a href="https://www.linkedin.com/in/terrence-aluda-889192223/" target="_blank"><span class="fa fa-linkedin"></span></a></li>
+                <li><a href="https://www.facebook.com/terrence.aluda/" target="_blank"><span class="fa fa-facebook-official"></span></a></li>
+                <li><a href="https://twitter.com/terrence_AA" target="_blank"><span class="fa fa-twitter"></span></a></li>
             </ul>
         </div>
     </div>
@@ -154,29 +154,29 @@
                       <div class="progress-info mb-0" id="test4" data-toggle='tooltip'>
                             <h6 class="progress-tittle">Android Development</h6>
                             <div class="progress">
-                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 85%; background-color: #00ff00" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%; background-color: #00ff00" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
                                 </div>
                             </div>
                         </div><br>
                         <div class="progress-info" id="test1" data-toggle='tooltip'>
-                            <h6 class="progress-tittle">Backend Web Development</h6>
+                            <h6 class="progress-tittle">Backend API Development</h6>
                             <div class="progress">
                                 <div class="progress-bar " role="progressbar" style="width: 70%; background-color: #00ff00" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="progress-info" id="test2" data-toggle='tooltip'>
-                            <h6 class="progress-tittle">Frontend Web Development
-                            </h6>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 60%; background-color: #00ff00" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                                 </div>
                             </div>
                         </div>
                         <div class="progress-info mb-0" id="test3" data-toggle='tooltip'>
                             <h6 class="progress-tittle">Data Science & Machine Learning</h6>
                             <div class="progress">
-                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 50%; background-color: #00ff00" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 60%; background-color: #00ff00" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                        </div><br>
+                        <div class="progress-info" id="test2" data-toggle='tooltip'>
+                            <h6 class="progress-tittle">Frontend Web Development
+                            </h6>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 15%; background-color: #00ff00" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                                 </div>
                             </div>
                         </div><br>
@@ -352,7 +352,7 @@
 
         $(document).ready(function(){
 
-        	$('#test1').tooltip({title: "<span><strong>Languages</strong></span><ul><li>1. PHP</li><li>2. SQL</li></ul><span><strong> Technologies</strong></span><ul><li>1. Laravel</li><li>2. REST</li><li>3. MySQL</li></ul>", html: true, placement: "bottom"});
+        	$('#test1').tooltip({title: "<span><strong>Languages</strong></span><ul><li>1. PHP</li><li>2. Python</li><li>3. SQL</li></ul><span><strong> Technologies</strong></span><ul><li>1. Laravel</li><li>2. Django</li><li>3. REST</li><li>4. MySQL</li></ul>", html: true, placement: "bottom"});
         	$('#test2').tooltip({title: "<span><strong>Languages</strong></span><ul><li>1. HTML</li><li>2. CSS</li><li>3. JavaScript</li></ul><span><strong> Technologies</strong></span><ul><li>1. Bootstrap</li><li>2. jQuery</li></ul>", html: true, placement: "bottom"});
         	$('#test3').tooltip({title: "<span><strong>Languages</strong></span><ul><li>1. Python</li></ul><span><strong> Technologies</strong></span><ul><li>1. Numpy</li><li>2. Pandas</li><li>3. Matplotlib</li><li>4. Scikit-Learn</li></ul>", html: true, placement: "bottom"});
           $('#test4').tooltip({title: "<span><strong>Languages</strong></span><ul><li>1. Java</li><li>2. Kotlin</li></ul><span><strong>", html: true, placement: "bottom"});
@@ -449,7 +449,7 @@
       autoplay: true,
       autoplayTimeout: 5000,
       autoplaySpeed: 1000,
-      autoplayHoverPause: true,
+      autoplayHoverPause: false,
       responsive: {
         0: {
           items: 1,
@@ -476,7 +476,7 @@
       nav: true,
       responsiveClass: true,
       autoplay: false,
-      autoplayTimeout: 5000,
+      autoplayTimeout: 8000,
       autoplaySpeed: 1000,
       autoplayHoverPause: false,
       responsive: {
